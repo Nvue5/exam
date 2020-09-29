@@ -1,6 +1,9 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Mul from '../views/Mul.vue'
+import Timu from '../views/Timu.vue'
+import Single from '../views/Single.vue'
 
 Vue.use(VueRouter)
 
@@ -9,6 +12,21 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/single',
+    name: 'Single',
+    component: Single
+  },
+  {
+    path: '/mul',
+    name: 'Mul',
+    component: Mul
+  },
+  {
+    path: '/timu',
+    name: 'Timu',
+    component: Timu
   },
   {
     path: '/about',
